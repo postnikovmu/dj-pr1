@@ -6,8 +6,8 @@ authors = ["Mikhail Postnikov <postnikovmu@mail.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-Django = "              5.0.1"
+Django = "^3.0"
+python = "^3.8"
 
 
 [build-system]
