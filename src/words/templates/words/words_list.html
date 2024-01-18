@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Booking_app</title>
+</head>
+
+<body>
+<p> Words list </p>
+
+{% block content %}
+<table class="words_list">
+    <tbody>
+        <tr>
+            <td>Origin</td>
+            <td>Translate</td>
+        </tr>
+
+        {% for line in words_list %}
+        <tr>
+            <td>{{ line.0 }}</td>
+            <td>{{ line.1 }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
+</body>
+
+</html>
